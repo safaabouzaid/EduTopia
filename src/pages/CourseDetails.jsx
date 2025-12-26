@@ -1,5 +1,5 @@
 import { useParams, useNavigate, Link } from "react-router-dom";
-import { coursesData } from "../data/coursesData";
+import { coursesData } from "../data/CoursesData";
 import { useState, useEffect } from "react";
 
 const CourseDetails = () => {

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { coursesData } from "../data/coursesData";
+import { coursesData } from "../data/CoursesData";
 import CourseCard from "../components/CourseCard";
 
 const Courses = () => {
