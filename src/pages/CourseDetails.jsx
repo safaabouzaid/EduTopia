@@ -101,7 +101,7 @@ const CourseDetails = () => {
       )}
 
       {/* Course Hero Section */}
-      <div className="relative bg-gradient-to-r from-indigo-600 to-indigo-700 text-white">
+      <div className="relative bg-linear-to-r from-indigo-600 to-indigo-700 text-white">
         <div className="absolute inset-0 bg-black/10"></div>
         <div className="container mx-auto px-4 py-12 relative">
           <div className="flex items-center space-x-2 text-sm mb-4 text-white/80">
@@ -222,7 +222,7 @@ const CourseDetails = () => {
                     "Work with APIs and external services"
                   ].map((item, index) => (
                     <div key={index} className="flex items-start space-x-3">
-                      <svg className="w-6 h-6 text-green-500 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                      <svg className="w-6 h-6 text-green-500 mt-1 shrink-0" fill="currentColor" viewBox="0 0 20 20">
                         <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" />
                       </svg>
                       <span className="text-gray-700">{item}</span>
@@ -264,7 +264,7 @@ const CourseDetails = () => {
             <div className="bg-white rounded-2xl shadow-lg p-8">
               <h2 className="text-3xl font-bold text-gray-900 mb-6">About the Instructor</h2>
               <div className="flex items-start space-x-6">
-                <div className="w-24 h-24 bg-gradient-to-r from-indigo-500 to-sky-500 rounded-full flex items-center justify-center text-white text-2xl font-bold">
+                <div className="w-24 h-24 bg-linear-to-r from-indigo-500 to-sky-500 rounded-full flex items-center justify-center text-white text-2xl font-bold">
                   {course.instructor?.charAt(0) || 'J'}
                 </div>
                 <div className="flex-1">
@@ -354,7 +354,7 @@ const CourseDetails = () => {
                       className="group block"
                     >
                       <div className="flex items-center space-x-4 p-3 rounded-lg hover:bg-gray-50 transition-colors">
-                        <div className="w-16 h-16 bg-gradient-to-r from-indigo-400 to-sky-400 rounded-lg flex-shrink-0"></div>
+                        <div className="w-16 h-16 bg-linear-to-r from-indigo-400 to-sky-400 rounded-lg shrink-0"></div>
                         <div>
                           <h4 className="font-medium text-gray-900 group-hover:text-indigo-600 transition-colors line-clamp-1">
                             {relatedCourse.title}
@@ -375,7 +375,7 @@ const CourseDetails = () => {
       </div>
 
       {/* CTA Section */}
-      <div className="bg-gradient-to-r from-indigo-600 to-indigo-700 text-white py-12">
+      <div className="bg-linear-to-r from-indigo-600 to-indigo-700 text-white py-12">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-6">Ready to Start Learning?</h2>
           <p className="text-xl text-white/90 mb-8">Join thousands of students who have transformed their careers</p>

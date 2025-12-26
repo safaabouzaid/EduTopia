@@ -6,12 +6,12 @@ const Navbar = () => {
   const isLoggedIn = localStorage.getItem("isLoggedIn");
 
   return (
-    <nav className="sticky top-0 z-50 bg-gradient-to-r from-indigo-700 to-purple-700 shadow-lg">
+    <nav className="sticky top-0 z-50 bg-linear-to-r from-indigo-700 to-purple-700 shadow-lg">
       <div className="container mx-auto px-6 py-4">
         <div className="flex justify-between items-center">
           {/* Logo  */}
           <Link to="/" className="flex items-center space-x-3 group">
-            <div className="w-12 h-12 bg-gradient-to-br from-white to-gray-100 rounded-xl flex items-center justify-center shadow-md group-hover:shadow-lg transition-shadow duration-300">
+            <div className="w-12 h-12 bg-linear-to-br from-white to-gray-100 rounded-xl flex items-center justify-center shadow-md group-hover:shadow-lg transition-shadow duration-300">
               <AcademicCapIcon className="w-7 h-7 text-indigo-600" />
             </div>
             <div>

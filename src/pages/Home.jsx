@@ -40,9 +40,9 @@ const Home = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
+    <div className="min-h-screen bg-linear-to-b from-gray-50 to-white">
       {/* Hero Section  */}
-      <section className="relative bg-gradient-to-br from-indigo-700 to-purple-700 text-white py-16 md:py-20 overflow-hidden">
+      <section className="relative bg-linear-to-br from-indigo-700 to-purple-700 text-white py-16 md:py-20 overflow-hidden">
         <div className="container mx-auto px-4 text-center relative">
           <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm px-3 py-1 rounded-full mb-4 text-sm">
             <SparklesIcon className="w-4 h-4 text-yellow-300" />
@@ -51,7 +51,7 @@ const Home = () => {
           
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 leading-tight">
             Master Your Future with 
-            <span className="block text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-sky-400 mt-1">
+            <span className="block text-transparent bg-clip-text bg-linear-to-r from-emerald-400 to-sky-400 mt-1">
               EduTopia 
             </span>
           </h1>
@@ -63,7 +63,7 @@ const Home = () => {
           <div className="flex flex-col sm:flex-row gap-3 justify-center items-center">
             <Link 
               to="/courses"
-              className="bg-gradient-to-r from-emerald-500 to-sky-500 text-white px-6 py-3 rounded-lg font-semibold hover:from-emerald-600 hover:to-sky-600 transition-all duration-300 flex items-center gap-2 shadow-md"
+              className="bg-linear-to-r from-emerald-500 to-sky-500 text-white px-6 py-3 rounded-lg font-semibold hover:from-emerald-600 hover:to-sky-600 transition-all duration-300 flex items-center gap-2 shadow-md"
             >
               Start Learning
               <ArrowRightIcon className="w-4 h-4" />
@@ -97,7 +97,7 @@ const Home = () => {
                 className="group bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-all duration-300 border border-gray-100 hover:border-indigo-200 hover:-translate-y-1"
               >
                 <div className="mb-4 flex justify-center">
-                  <div className="bg-gradient-to-r from-indigo-500 to-purple-500 p-3 rounded-lg">
+                  <div className="bg-linear-to-r from-indigo-500 to-purple-500 p-3 rounded-lg">
                     <feature.icon className="w-6 h-6 text-white" />
                   </div>
                 </div>
@@ -156,7 +156,7 @@ const Home = () => {
       </section>
 
       {/* CTA Section  */}
-      <section className="py-12 md:py-16 bg-gradient-to-r from-indigo-700 to-purple-700 text-white">
+      <section className="py-12 md:py-16 bg-linear-to-r from-indigo-700 to-purple-700 text-white">
         <div className="container mx-auto px-4 text-center">
           <div className="max-w-2xl mx-auto">
             <h2 className="text-2xl md:text-3xl font-bold mb-4">
@@ -170,7 +170,7 @@ const Home = () => {
             <div className="flex flex-col sm:flex-row gap-3 justify-center items-center">
               <Link 
                 to="/courses"
-                className="bg-gradient-to-r from-emerald-400 to-sky-400 text-gray-900 px-8 py-3 rounded-lg font-semibold hover:from-emerald-500 hover:to-sky-500 transition-all duration-300 flex items-center gap-2 shadow-lg"
+                className="bg-linear-to-r from-emerald-400 to-sky-400 text-gray-900 px-8 py-3 rounded-lg font-semibold hover:from-emerald-500 hover:to-sky-500 transition-all duration-300 flex items-center gap-2 shadow-lg"
               >
                 Explore All Courses
                 <ArrowRightIcon className="w-4 h-4" />

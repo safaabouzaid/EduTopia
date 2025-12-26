@@ -36,8 +36,8 @@ const CourseCard = ({ course, addToCart }) => {
   return (
     <div className="bg-white rounded-xl shadow-sm overflow-hidden hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1 border border-gray-100 hover:border-indigo-200 group">
       {/* Course Image/Banner */}
-      <div className="h-48 bg-gradient-to-r from-indigo-600 to-indigo-700 relative overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
+      <div className="h-48 bg-linear-to-r from-indigo-600 to-indigo-700 relative overflow-hidden">
+        <div className="absolute inset-0 bg-linear-to-t from-black/20 to-transparent"></div>
         <div className="absolute top-4 left-4">
           <span className={`px-3 py-1 rounded-full text-xs font-semibold ${getLevelColor(course.level)} backdrop-blur-sm bg-white/90`}>
             {course.level}

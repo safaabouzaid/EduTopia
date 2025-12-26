@@ -51,7 +51,7 @@ const Cart = () => {
                   <div key={c.id} className="p-6 border-b border-gray-100 hover:bg-gray-50 transition-colors duration-200">
                     <div className="flex items-center justify-between">
                       <div className="flex items-center space-x-4">
-                        <div className="w-16 h-16 bg-gradient-to-r from-indigo-500 to-sky-500 rounded-lg"></div>
+                        <div className="w-16 h-16 bg-linear-to-r from-indigo-500 to-sky-500 rounded-lg"></div>
                         <div>
                           <h3 className="font-bold text-gray-900">{c.title}</h3>
                           <p className="text-gray-600 text-sm">{c.level} Level</p>

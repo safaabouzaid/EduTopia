@@ -29,11 +29,11 @@ const Login = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-indigo-50 to-sky-50 flex items-center justify-center py-12 px-4">
+    <div className="min-h-screen bg-linear-to-br from-indigo-50 to-sky-50 flex items-center justify-center py-12 px-4">
       <div className="max-w-md w-full">
         {/* Logo */}
         <div className="text-center mb-8">
-          <div className="w-16 h-16 ml-47 bg-gradient-to-br from-white to-gray-100 rounded-xl flex items-center justify-center shadow-md group-hover:shadow-lg transition-shadow duration-300">
+          <div className="w-16 h-16 ml-47 bg-linear-to-br from-white to-gray-100 rounded-xl flex items-center justify-center shadow-md group-hover:shadow-lg transition-shadow duration-300">
               <AcademicCapIcon className="w-7 h-7 text-indigo-600" />
             </div>
 

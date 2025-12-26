@@ -73,7 +73,7 @@ const Courses = () => {
                 onClick={() => handlePageChange(pageNum)}
                 className={`w-10 h-10 rounded-lg font-medium transition-all ${
                   currentPage === pageNum
-                    ? 'bg-gradient-to-r from-indigo-600 to-purple-600 text-white shadow-lg'
+                    ? 'bg-linear-to-r from-indigo-600 to-purple-600 text-white shadow-lg'
                     : 'border hover:bg-gray-100'
                 }`}
               >
