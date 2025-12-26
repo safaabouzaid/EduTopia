@@ -1,4 +1,4 @@
-# EduPlatform – Online Courses Website
+# EduTopia – Online Courses Website
 
 A simple online courses platform built with **React** and **Tailwind CSS**.
 Users can:
