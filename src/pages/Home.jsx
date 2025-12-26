@@ -78,7 +78,7 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Features Section - أصغر */}
+      {/* Features Section  */}
       <section className="py-12 md:py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="text-center mb-8">
@@ -112,7 +112,7 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Testimonials - أصغر */}
+      {/* Testimonials  */}
       <section className="py-12 md:py-16 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="text-center mb-8">
@@ -155,7 +155,7 @@ const Home = () => {
         </div>
       </section>
 
-      {/* CTA Section - أصغر */}
+      {/* CTA Section  */}
       <section className="py-12 md:py-16 bg-gradient-to-r from-indigo-700 to-purple-700 text-white">
         <div className="container mx-auto px-4 text-center">
           <div className="max-w-2xl mx-auto">
